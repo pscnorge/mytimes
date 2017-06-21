@@ -1,3 +1,4 @@
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -28,6 +29,7 @@ header ul li {
 header ul li a {
   color: black;
 }
+/* Body styling and columns */
 main {
   display: flex;
   justify-content: center;
@@ -43,6 +45,7 @@ main {
 .column.large {
   width: 630px;
   margin-right:30px;
+  flex-flow: row wrap;
 }
 
 .column.medium {
@@ -56,21 +59,36 @@ main {
   padding-top:200px;
   width: 240px;
 }
+/* First column extra styling */
+.column.large .story {
+  width: 48%;
+  padding: 6px;
+}
+.column.large .story.main {
+  width: 100%;
+}
+.s2 {
+  order: 1;
+}
+.s3 {
+  order: 2;
+}
+/* Story styling */
 h2 {
  font-size: 26px;
 }
 .story {
-  font-family: Georgia serif;
+  font-family: Georgia, serif;
 }
 .story h2 {
   font-weight: bold;
-  font-size: 30px;
 }
 .story.main h2 {
-  font-size: 40px;
+
   text-align: left;
 }
 .story.pic a {
+  font-size: 30px;
   display: block;
   color: white;
   text-decoration: none;
@@ -79,6 +97,7 @@ h2 {
   padding: 10px;
 }
 .story.main a {
+  font-size: 40px;
   background-image: url(../images/img-story-main.png);
   text-align: left;
 }
@@ -91,6 +110,8 @@ h2 {
 .story.s3 a {
   background-image: url(../images/img-story-3.png);
 }
+/* News bites */
 .story.bites h2 {
   text-transform: uppercase;
 }
+/* Footer */
