@@ -46,3 +46,6 @@ main {
 .column.small {
   width: 240px;
 }
+.column.small h2 {
+  text-transform: uppercase;
+}
