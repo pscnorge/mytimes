@@ -48,6 +48,9 @@ main {
 }
 
 .column.small {
+  background-image: url("../images/img-news-bite.png");
+  background-repeat: no-repeat;
+  padding-top:200px;
   width: 240px;
 }
 .column.small h2 {
