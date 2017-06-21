@@ -1,15 +1,29 @@
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 6px;
 }
 header h1 {
   color: MediumAquamarine;
-  padding-left: 50px;
+  padding: 20px 80px;
+  margin:0;
+  font-size: 14px;
   background-image: url("../images/img-myt-logo.jpg");
+  background-repeat: no-repeat;
 }
 header ul {
   list-style-type: none;
+  margin:0;
+}
+header ul li {
   display: inline-block;
+  padding: 0 10px;
+}
+header ul li a {
+  color: black;
 }
