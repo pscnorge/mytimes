@@ -32,6 +32,8 @@ main {
   display: flex;
   justify-content: center;
   padding: 30px 70px;
+  font-family: "Times New Roman" serif;
+  font-size: 16px;
 }
 .column {
   display: flex;
@@ -55,4 +57,20 @@ main {
 }
 .column.small h2 {
   text-transform: uppercase;
+}
+h2 {
+ font-size: 26px;
+}
+.piclink {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-repeat: none;
+}
+.piclink a {
+  color: white;
+  text-decoration: none;
+}
+.piclink.p1 {
+  justify-content: flex-start;
 }
