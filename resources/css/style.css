@@ -28,3 +28,21 @@ header ul li {
 header ul li a {
   color: black;
 }
+main {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
