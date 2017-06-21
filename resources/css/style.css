@@ -6,12 +6,12 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  padding: 6px;
+  padding: 8px;
 }
 header h1 {
   color: MediumAquamarine;
   padding: 20px 80px;
-  margin:0;
+  margin:0 10px;
   font-size: 14px;
   background-image: url("../images/img-myt-logo.jpg");
   background-repeat: no-repeat;
@@ -19,6 +19,7 @@ header h1 {
 header ul {
   list-style-type: none;
   margin:0;
+  padding-right:20px;
 }
 header ul li {
   display: inline-block;
