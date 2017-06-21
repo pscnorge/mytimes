@@ -75,11 +75,8 @@ main {
 .column.large .story.main {
   width: 100%;
 }
-.s2 {
-  order: 1;
-}
-.s3 {
-  order: 2;
+.s2, .s3 {
+ order:1;
 }
 /* Story styling */
 h2 {
