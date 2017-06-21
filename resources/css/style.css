@@ -4,3 +4,12 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+header h1 {
+  color: MediumAquamarine;
+  padding-left: 50px;
+  background-image: url("../images/img-myt-logo.jpg");
+}
+header ul {
+  list-style-type: none;
+  display: inline-block;
+}
