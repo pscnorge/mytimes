@@ -1,4 +1,8 @@
 /* Header */
+body {
+  margin:0;
+  padding:0;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -8,6 +12,10 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   padding: 8px;
+  margin:0;
+  position:fixed;
+  background: white;
+  width: 100%;
 }
 header h1 {
   color: MediumAquamarine;
@@ -33,7 +41,7 @@ header ul li a {
 main {
   display: flex;
   justify-content: center;
-  padding: 30px 70px;
+  padding: 70px 70px 30px 70px;
   font-family: Georgia serif;
   font-size: 17px;
   color: black;
