@@ -56,43 +56,41 @@ main {
   padding-top:200px;
   width: 240px;
 }
-.column.small h2 {
-  text-transform: uppercase;
-}
 h2 {
  font-size: 26px;
 }
 .story {
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  background-repeat: none;
+  font-family: Georgia serif;
 }
 .story h2 {
-  margin: 5px 20px;
-  font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  text-align: center;
 }
 .story.main h2 {
   font-size: 40px;
   text-align: left;
 }
-.story a {
+.story.pic a {
+  display: block;
   color: white;
   text-decoration: none;
+  height: 280px;
+  text-align: center;
+  padding: 10px;
 }
-.story.main {
-  justify-content: flex-start;
+.story.main a {
   background-image: url(../images/img-story-main.png);
+  text-align: left;
 }
-.story.s1 {
+.story.s1 a {
   background-image: url(../images/img-story-1.png);
 }
-.story.s2 {
+.story.s2 a {
   background-image: url(../images/img-story-2.png);
 }
-.story.s3 {
+.story.s3 a {
   background-image: url(../images/img-story-3.png);
+}
+.story.bites h2 {
+  text-transform: uppercase;
 }
