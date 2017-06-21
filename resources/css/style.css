@@ -133,3 +133,23 @@ h2 {
   color: DimGray;
 }
 /* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-flow: row wrap;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer #attrib {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+  border-right: 3px solid white;
+}
