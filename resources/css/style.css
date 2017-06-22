@@ -70,7 +70,8 @@ main {
 }
 /* First column extra styling */
 .column.large .story {
-  flex-basis:295px;
+  flex-basis: 295px;
+  flex-grow: 1;
   padding:10px;
 }
 .column.large .story.main {
