@@ -98,7 +98,7 @@ h2 {
   display: block;
   color: white;
   text-decoration: none;
-  height: 280px;
+  min-height: 280px;
   text-align: center;
   padding: 10px;
 }
