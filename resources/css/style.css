@@ -64,16 +64,17 @@ main {
 .column.small {
   background-image: url("../images/img-news-bite.png");
   background-repeat: no-repeat;
+  background-position: center top;
   padding-top:200px;
   width: 240px;
 }
 /* First column extra styling */
 .column.large .story {
-  width: 48%;
-  padding: 6px;
+  flex-basis:295px;
+  padding:10px;
 }
 .column.large .story.main {
-  width: 100%;
+  flex-basis: 100%;
 }
 .s2, .s3 {
  order:1;
